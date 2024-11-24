@@ -6,7 +6,7 @@ import os
 app = Flask(__name__, template_folder='.', static_folder='.')
 
 # Initialize Google Generative AI
-GOOGLE_API_KEY = 'AIzaSyBE5VVg--1inSj3xtLn0U21RSLoxYNq0eY'
+GOOGLE_API_KEY = 'YOUR API HERE'
 genai.configure(api_key=GOOGLE_API_KEY)
 
 # Define a function to convert the AI-generated content to Markdown format
