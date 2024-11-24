@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EachLLM</title>
+    <link rel="stylesheet" href="static/styles.css"> <!-- Correct path to CSS file -->
+</head>
+<body>
+    <header>
+        <h1>EachLLM</h1>
+    </header>
+    
+    <div class="container">
+        <h2>AI-Generated Content</h2>
+        <form id="ai-form">
+            <div class="form-group">
+                <label for="prompt">Enter a prompt:</label>
+                <input type="text" id="prompt" name="prompt" required>
+            </div>
+            <div class="form-group">
+                <button type="submit">Generate</button>
+            </div>
+        </form>
+        <div id="ai-response">
+            <!-- AI-generated content will be displayed here -->
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 EachLLM. All rights reserved.</p>
+    </footer>
+
+    <!-- Include marked.js for markdown rendering -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="scripts/script.js"></script> <!-- Correct path to JS file -->
+</body>
+</html>
